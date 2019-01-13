@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.168
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleUI", "ConsoleUI\ConsoleUI.csproj", "{4042D440-CDCE-47F3-976B-3D05A535DBF6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helper", "Helper\Helper.csproj", "{9EE902F9-8B1B-4F4E-A9CF-0CE21E2EE7A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4042D440-CDCE-47F3-976B-3D05A535DBF6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4042D440-CDCE-47F3-976B-3D05A535DBF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4042D440-CDCE-47F3-976B-3D05A535DBF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4042D440-CDCE-47F3-976B-3D05A535DBF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EE902F9-8B1B-4F4E-A9CF-0CE21E2EE7A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EE902F9-8B1B-4F4E-A9CF-0CE21E2EE7A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EE902F9-8B1B-4F4E-A9CF-0CE21E2EE7A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EE902F9-8B1B-4F4E-A9CF-0CE21E2EE7A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {51D651CD-F3E7-4ED5-B794-DCAA18BD16C8}
+	EndGlobalSection
+EndGlobal
