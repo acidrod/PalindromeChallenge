@@ -3,29 +3,6 @@ using Helper;
 
 namespace ConsoleUI
 {
-    class Point
-    {
-        public int xCoord { get; set; }
-        public int yCoord { get; set; }
-
-        public Point(int x, int y)
-        {
-            xCoord = x;
-            yCoord = y;
-        }
-
-        public double Distance(Point q)
-        {
-            double x1, x2, y1, y2;
-            x1 = xCoord;
-            x2 = q.xCoord;
-            y1 = yCoord;
-            y2 = q.yCoord;
-
-            return Math.Sqrt(Math.Pow((x2 - x1), 2) + Math.Pow((y2 - y1), 2));
-        }
-    }
-
     class Program
     {
         static void Main(string[] args)
